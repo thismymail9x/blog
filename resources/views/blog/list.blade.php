@@ -29,13 +29,14 @@
                             <td>{{ ++$key }}</td>
                             <td>{{ $value->title}}</td>
                             <td>{{ $value->description}}</td>
-                            <td>img</td>
+                            <td>
+                                <img src="{{ asset('storage/'. $value->image) }}" alt="" style="width: 100px; height: 100px">
+                            </td>
                             <td>{{ $value->category->name}}</td>
                             <td>{{ $value->user->name}}</td>
                             <td>
-                                <a href=""
-                                   class="btn btn-primary">Edit</a>
-                                <a href="" class="btn btn-danger">Delete</a>
+                                <a href="{{route('blog.show-form-edit',$value->id)}}" class="btn btn-primary">Edit</a>
+                                <a href="{{route('blog.delete',$value->id)}}" onclick="return confirm('Warning, it will be delete')" class="btn btn-danger">Delete</a>
                             </td>
                         </tr>
                     @endforeach

@@ -25,4 +25,21 @@ class BlogRepository
     {
         $blog->save();
     }
+
+    public function find($id)
+    {
+        return $this->blog->findOrFail($id);
+    }
+
+    public function deleteBlog($blog)
+    {
+        $blog->delete();
+    }
+
+    public function search($keyword)
+    {
+        $result = $this->blog->where('title', 'like', '%' . $keyword . '%')
+            ->orWhere('category_id', 'like', '%' . $keyword . '%')->get();
+        return $result;
+    }
 }

@@ -37,8 +37,8 @@
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">About</h6>
                 <a class="collapse-item" href="{{route('blog.index')}}">Blogs</a>
-                <a class="collapse-item" href="">Categories</a>
-                <a class="collapse-item" href="">Users</a>
+                <a class="collapse-item" href="{{route('category.index')}}">Categories</a>
+                <a class="collapse-item" href="{{route('user.index')}}">Users</a>
             </div>
         </div>
     </li>

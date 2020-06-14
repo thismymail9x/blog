@@ -11,11 +11,12 @@ class UserSeeder extends Seeder
      */
     public function run()
     {
+
         $user = new \App\User();
-        $user->name = 'admin';
-        $user->email = 'a@gmail.com';
+        $user->name = 'admin1';
+        $user->username = 'ab@gmail.com';
         $user->image = 'default.jpn';
-        $user->password = '1';
+        $user->password = \Illuminate\Support\Facades\Hash::make('123456');
         $user->role = 1;
         $user->save();
     }
