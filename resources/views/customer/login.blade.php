@@ -7,7 +7,7 @@
 
         <!-- Icon -->
         <div class="fadeIn first">
-            <img src="https://lh3.googleusercontent.com/proxy/5jJM2I1rJ_0SU7G0tok34ExCR_4auEo34fYC2HM1mtfuzIaLZuWv6qxT42cizD7iJzBKDlF09uC1q-IuXWGFeDlT7Kgxp5DSWysC05VcnkY" id="icon" alt="User Icon" />
+            <img src="https://www.esa.int/var/esa/storage/images/esa_multimedia/images/2013/11/security/14429033-1-eng-GB/Security_pillars.jpg" id="icon" alt="User Icon" />
             <h3>Login</h3>
         </div>
 
@@ -25,6 +25,5 @@
 
     </div>
 </div>
-@toastr_render
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>

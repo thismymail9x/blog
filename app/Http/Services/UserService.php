@@ -10,11 +10,13 @@ use Illuminate\Support\Facades\Hash;
 
 class UserService
 {
-protected $userRepository;
-public function __construct(UserRepository $userRepository)
-{
-    $this->userRepository=$userRepository;
-}
+    protected $userRepository;
+
+    public function __construct(UserRepository $userRepository)
+    {
+        $this->userRepository = $userRepository;
+    }
+
     public function getAll()
     {
         return $this->userRepository->getAll();
@@ -24,8 +26,8 @@ public function __construct(UserRepository $userRepository)
     {
         $user = new User();
         $user->name = $request->name;
-        $user->email = $request->email;
-        $user->password = $request->password;
+        $user->username = $request->email;
+        $user->password = Hash::make($request->password);
         if ($request->hasFile('image')) {
             $image = $request->image;
             $path = $image->store('images', 'public');
@@ -46,7 +48,7 @@ public function __construct(UserRepository $userRepository)
     public function edit($request, $user)
     {
         $user->name = $request->name;
-        $user->email = $request->email;
+        $user->username = $request->email;
         if ($request->hasFile('image')) {
             $image = $request->image;
             $path = $image->store('images', 'public');

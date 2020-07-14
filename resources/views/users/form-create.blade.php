@@ -1,4 +1,4 @@
-@extends('master');
+@extends('master')
 @section('content')
     <div class="container-fluid">
         <div class="card-body">
@@ -13,14 +13,14 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Username</label>
-                    <input type="email"  name="email" class="form-control" placeholder="type email:example@mail.com">
+                    <input type="email" name="email" class="form-control" placeholder="type email:example@mail.com">
                     @if($errors)
                         <p class="text-danger">{{$errors->first('email')}}</p>
                     @endif
                 </div>
                 <div class="form-group">
                     <label for="exampleFormControlInput1">Image</label>
-                    <input type="file"  name="image" class="form-control">
+                    <input type="file" name="image" class="form-control">
                     @if($errors)
                         <p class="text-danger">{{$errors->first('image')}}</p>
                     @endif
@@ -41,7 +41,9 @@
                 </div>
 
                 <div class="form-group">
-                    <input type="submit"  value="Create" class="btn btn-success">
+                    <input type="submit" value="Create" class="btn btn-success">
+                    <a href="{{route('blog.index')}}" class="btn btn-warning">Cancel</a>
+
                 </div>
             </form>
         </div>

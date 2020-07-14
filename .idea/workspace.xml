@@ -10,34 +10,221 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7243ab88-68ef-48b1-9706-a1d79f112076" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Http/Repositories/UserRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Services/UserService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/login.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/blog/form-edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/category/form-create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/category/form-edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/category/list.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/customer/login.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/form-create.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/form-edit.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/users/list.blade.php" afterDir="false" />
+    <list default="true" id="7243ab88-68ef-48b1-9706-a1d79f112076" name="Default Changelist" comment="oke">
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/LayoutController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/ajax-loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/aos.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/bootstrap-datepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/bootstrap/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/bootstrap/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/css/mixins/_text-hide.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/icomoon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/jquery.timepicker.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/magnific-popup.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/open-iconic-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fashion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/flaticon/backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/flaticon/font/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/flaticon/font/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/flaticon/font/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/flaticon/font/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/flaticon/font/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/flaticon/font/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/flaticon/font/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/flaticon/license/license.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/icomoon/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/icomoon/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/icomoon/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/icomoon/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/ionicons/css/_ionicons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/ionicons/css/ionicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/ionicons/fonts/ionicons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/ionicons/fonts/ionicons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/ionicons/fonts/ionicons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/ionicons/fonts/ionicons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/ionicons/fonts/ionicons.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/open-iconic/open-iconic.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/open-iconic/open-iconic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/open-iconic/open-iconic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/open-iconic/open-iconic.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/fonts/open-iconic/open-iconic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/about.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/author.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/bg_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/image_9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/loc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/person_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/person_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/person_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/images/person_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/aos.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/google-map.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/jquery-migrate-3.0.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/jquery.animateNumber.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/jquery.easing.1.3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/jquery.magnific-popup.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/jquery.stellar.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/jquery.waypoints.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/range.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/scrollax.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/js/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/prepros-6.config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_spinners.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/bootstrap-grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/bootstrap-reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/bootstrap.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_deprecate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_overflow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/bootstrap/vendor/_rfs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/scss/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/single.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/andrea/travel.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin-search.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/blog.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/content.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/list-blog-of-category.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/list.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/master.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/menu-left.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/menu-right.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout/search.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/welcome2.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/mycase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/mycase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/BlogController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Repositories/BlogRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Repositories/BlogRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Repositories/CategoryRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Repositories/CategoryRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Services/BlogService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Services/BlogService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Repositories/UserRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Repositories/UserRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/CategoryRequest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Requests/UserRequest.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Services/CategoryService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Services/CategoryService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Services/UserService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Services/UserService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/UserSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UserSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/blog/form-create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/form-create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/form-edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/form-edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/blog/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/category/form-create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/category/form-create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/category/form-edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/category/form-edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/category/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/category/list.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/customer/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/customer/login.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/menu-left.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/menu-left.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/menu-top.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/menu-top.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/form-create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/form-create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/form-edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/form-edit.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/users/list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/users/list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -54,6 +241,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -164,6 +352,8 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
       <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
       <path value="$PROJECT_DIR$/vendor/doctrine/event-manager" />
+      <path value="$PROJECT_DIR$/vendor/unisharp/laravel-filemanager" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectId" id="1dFfezg4xOFAkqSk2HFVxwiGWrL" />
@@ -175,19 +365,20 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Case-Study-Module-3" />
+    <property name="last_opened_file_path" value="/var/www/html/fizz_buzz_prepared" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Laravel.SettingsForm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
@@ -211,8 +402,25 @@
       <workItem from="1592027874683" duration="4617000" />
       <workItem from="1592032501810" duration="24857000" />
       <workItem from="1592066741273" duration="6149000" />
-      <workItem from="1592103832297" duration="13702000" />
+      <workItem from="1592103832297" duration="19937000" />
+      <workItem from="1592141588820" duration="15244000" />
+      <workItem from="1592182875426" duration="18865000" />
     </task>
+    <task id="LOCAL-00001" summary="oke">
+      <created>1592124531356</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592124531356</updated>
+    </task>
+    <task id="LOCAL-00002" summary="oke">
+      <created>1592124567235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592124567235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,6 +438,11 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="oke" />
+    <option name="LAST_COMMIT_MESSAGE" value="oke" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="539" y="354" width="903" height="405" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592054374864">
       <screen x="72" y="27" width="1848" height="1053" />
@@ -239,26 +452,26 @@
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="757" y="304" width="458" height="514" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1592032471449" />
-    <state x="728" y="310" width="526" height="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592105604135">
+    <state x="728" y="310" width="526" height="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1592154023830">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="728" y="310" width="526" height="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1592105604135" />
-    <state x="778" y="310" width="449" height="493" key="FileChooserDialogImpl" timestamp="1592108434089">
+    <state x="728" y="310" width="526" height="493" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1592154023830" />
+    <state x="778" y="310" width="449" height="493" key="FileChooserDialogImpl" timestamp="1592187963860">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="778" y="310" width="449" height="493" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1592108434089" />
-    <state x="856" y="452" width="279" height="305" key="Github.ShareDialog" timestamp="1592042821035">
+    <state x="778" y="310" width="449" height="493" key="FileChooserDialogImpl/72.27.1848.1053@72.27.1848.1053" timestamp="1592187963860" />
+    <state x="856" y="452" width="279" height="305" key="Github.ShareDialog" timestamp="1592124587879">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="856" y="452" width="279" height="305" key="Github.ShareDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1592042821035" />
+    <state x="856" y="452" width="279" height="305" key="Github.ShareDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1592124587879" />
     <state x="713" y="272" width="587" height="584" key="NewPhpClassDialog" timestamp="1592072732364">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
     <state x="713" y="272" width="587" height="584" key="NewPhpClassDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1592072732364" />
-    <state x="790" y="478" width="401" height="158" key="NewPhpFileDialog" timestamp="1592107133132">
+    <state x="790" y="478" width="401" height="158" key="NewPhpFileDialog" timestamp="1592192687196">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>
-    <state x="790" y="478" width="401" height="158" key="NewPhpFileDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1592107133132" />
+    <state x="790" y="478" width="401" height="158" key="NewPhpFileDialog/72.27.1848.1053@72.27.1848.1053" timestamp="1592192687196" />
     <state x="484" y="188" width="1024" height="737" key="SettingsEditor" timestamp="1592031049858">
       <screen x="72" y="27" width="1848" height="1053" />
     </state>

@@ -63,10 +63,15 @@ class UserController extends Controller
             'password' => $password
         ];
         if (Auth::attempt($user)) {
-          return redirect()->route('blog.index');
-        }
-        else{
+            return redirect()->route('blog.index');
+        } else {
             return redirect()->route('case');
         }
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+        return view('customer.login');
     }
 }

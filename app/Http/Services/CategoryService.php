@@ -16,6 +16,7 @@ class CategoryService
     {
         $this->categoryRepository = $categoryRepository;
     }
+
     public function getAll()
     {
         return $this->categoryRepository->getAll();

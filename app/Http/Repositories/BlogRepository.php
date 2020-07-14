@@ -5,6 +5,7 @@ namespace App\Http\Repositories;
 
 
 use App\Blog;
+use App\Category;
 
 class BlogRepository
 {
@@ -38,8 +39,7 @@ class BlogRepository
 
     public function search($keyword)
     {
-        $result = $this->blog->where('title', 'like', '%' . $keyword . '%')
-            ->orWhere('category_id', 'like', '%' . $keyword . '%')->get();
+        $result = $this->blog->where('title', 'like', '%' . $keyword . '%')->get();
         return $result;
     }
 }

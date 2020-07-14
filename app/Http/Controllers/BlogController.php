@@ -55,12 +55,13 @@ class BlogController extends Controller
         return back();
     }
 
-    public function search(Request $request )
+    public function search(Request $request)
     {
-       $result = $this->blogService->search($request);
-       return response()->json([
-           'status'=>'success',
-           'data'=>$result
-       ]);
+        $result = $this->blogService->search($request);
+        return view('admin-search',compact('result'));
+//        return response()->json([
+//            'status' => 'success',
+//            'data' => $result
+//        ]);
     }
 }

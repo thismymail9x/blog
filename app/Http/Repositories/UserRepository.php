@@ -9,11 +9,13 @@ use Illuminate\Support\Facades\DB;
 
 class UserRepository
 {
-protected $user;
-public function __construct(User $user)
-{
-    $this->user=$user;
-}
+    protected $user;
+
+    public function __construct(User $user)
+    {
+        $this->user = $user;
+    }
+
     public function getAll()
     {
         return $this->user->all();

@@ -39,6 +39,8 @@
                 </div>
                 <div class="form-group">
                     <input type="submit" onclick="return confirm('Are you sure you changed ?')" value="Edit" class="btn btn-success">
+                    <a href="{{route('blog.index')}}" class="btn btn-warning">Cancel</a>
+
                 </div>
             </form>
         </div>

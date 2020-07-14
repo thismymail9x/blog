@@ -109,6 +109,7 @@
 
 <!-- Page level plugins -->
 <script src="{{asset('vendor/chart.js/Chart.min.js')}}"></script>
+{{--<script src="{{asset('andrea/js/search.js')}}"></script>--}}
 
 <!-- Page level custom scripts -->
 <script src="{{asset('js/demo/chart-area-demo.js')}}"></script>
@@ -124,6 +125,17 @@
 <script src="https://cdn.datatables.net/1.10.20/js/dataTables.bootstrap4.min.js" crossorigin="anonymous"></script>
 <script src="assets/demo/datatables-demo.js"></script>
 </body>
+
 <script src="{{ asset('node_modules/ckeditor/ckeditor.js') }}"></script>
-<script> CKEDITOR.replace('editor'); </script>
+<script>
+    var options = {
+        filebrowserImageBrowseUrl: '/laravel-filemanager?type=Images',
+        filebrowserImageUploadUrl: '/laravel-filemanager/upload?type=Images&_token=',
+        filebrowserBrowseUrl: '/laravel-filemanager?type=Files',
+        filebrowserUploadUrl: '/laravel-filemanager/upload?type=Files&_token='
+    };
+</script>
+<script>
+    CKEDITOR.replace('editor', options);
+</script>
 </html>
